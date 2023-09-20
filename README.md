@@ -1,3 +1,6 @@
+this is a project that uses https://radar.cloudflare.com/domains 1 million domains csv list and just puts a button to link you to them. really small nextjs practice, the code sucks
+
+the nextjs boilerplate follows
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

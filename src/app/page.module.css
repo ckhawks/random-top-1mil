@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -16,6 +16,10 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+}
+
+.right {
+  float: right;
 }
 
 .description a {
@@ -70,6 +74,19 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(47, 47, 47);
 }
 
 .center {
